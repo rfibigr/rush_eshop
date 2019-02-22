@@ -1,11 +1,11 @@
 # RUSH - E-SHOP
 
-We had 48 to build an e-shop website in php and html.
-For this project i worked with [Arthur Cauchy](https://github.com/ArthurCauchy)
+We had 48 to build an e-commerce website in php and html.
+I did this project with a friend [Arthur Cauchy](https://github.com/ArthurCauchy)
 
-You can find more information about this challenge in this document
+You can find more informations about this challenge in this [document](https://github.com/rfibigr/rush_eshop/blob/master/PDF/Rush00-Sujet.pdf).
 
-We only had 48h to this project and we focus our work to developp the back. I keep it has we ended it.
+We only had 48h to this project and we focus our work to developp the back funcitonnality. Please excuse the poor appearence of the front.
 
 ## Requirements
 
@@ -25,32 +25,32 @@ docker-compose build
 docker-compose run
 ```
 
-Install the database
-
-http://localhost:8000/install.php
-
 Access the website
 
 http://localhost:8000
 
-If your docker is configure with a different IP with you will need to change the localhost in the file install.php and database.php the ip in
+If your docker is configure with a different IP,you will need to change the localhost in the file install.php and database.php the ip.
 
 `Install.php`
 ```php
-ligne 2  :$conn = mysqli_connect("localhost", "root", "abcdef");
-
+line 2  :$conn = mysqli_connect("localhost", "root", "abcdef");
 [...]
-
-
-ligne 16 :$conn = mysqli_connect("localhost", "root", "abcdef", "rush00");
+line 16 :$conn = mysqli_connect("localhost", "root", "abcdef", "rush00");
  ```
 
  `Database.php`
 ```php
-ligne 8  :$mysqli_database = mysqli_connect("localhost", "root", "abcdef", "rush00");
+line 8  :$mysqli_database = mysqli_connect("localhost", "root", "abcdef", "rush00");
 
  ```
 ## Account
 
 An admin account is already set-up
 login : admin / admin
+
+## Functionality
+
++ Data management: We used mysql as database.
++ A basket : you can modify quantity, and delete products. You need to be logged to valid a basket but it's possible to fill it before being identified.
++ An admin page where you can add categories and products and manage users account.
++ An user page: where you can modify informations and view precedent order,
