@@ -3,7 +3,7 @@
 We had 48 to build an e-commerce website in php and html.
 I did this project with a friend [Arthur Cauchy](https://github.com/ArthurCauchy)
 
-You can find more informations about this challenge in this [document](https://github.com/rfibigr/rush_eshop/blob/master/PDF/Rush00-Sujet.pdf).
+You can find more informations about this challenge in this [document.fr ](https://github.com/rfibigr/rush_eshop/blob/master/PDF/Rush00-Sujet.pdf) [document.en](https://github.com/rfibigr/rush_eshop/blob/master/PDF/rush00.en.pdf).
 
 We only had 48h to this project and we focus our work to developp the back funcitonnality. Please excuse the poor appearence of the front.
 
