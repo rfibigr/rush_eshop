@@ -25,8 +25,11 @@ docker-compose build
 docker-compose run
 ```
 
-Access the website
+Install the database
 
+http://localhost:8000/install.php
+
+Access the website
 http://localhost:8000
 
 If your docker is configure with a different IP,you will need to change the localhost in the file install.php and database.php the ip.

@@ -5,7 +5,7 @@ $mysqli_database = NULL;
 function get_db() {
     global $mysqli_database;
     if ($mysqli_database === NULL)
-        $mysqli_database = mysqli_connect("192.168.99.100", "root", "abcdef", "rush00");
+        $mysqli_database = mysqli_connect("localhost", "root", "abcdef", "rush00");
     return ($mysqli_database);
 }
 

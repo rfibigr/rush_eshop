@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("192.168.99.100", "root", "abcdef");
+$conn = mysqli_connect("localhost", "root", "abcdef");
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
@@ -13,7 +13,7 @@ if (mysqli_query($conn, $req)) {
 
 mysqli_close($conn);
 
-$conn = mysqli_connect("192.168.99.100", "root", "abcdef", "rush00");
+$conn = mysqli_connect("localhost", "root", "abcdef", "rush00");
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
