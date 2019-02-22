@@ -1,0 +1,24 @@
+site:
+  build : ./bin/web
+  ports :
+   - "8000:80"
+  volumes:
+   - $PWD/www:/var/www/html/
+  links:
+   - database
+phpmyadmin:
+   image: phpmyadmin/phpmyadmin
+   ports :
+    - "8080:80"
+   environment:
+    - MYSQL_USERNAME=root
+    - MYSQL_PASSWORD=abcdef
+   links:
+    - database:mysql
+database:
+  image: mysql:5.5
+  ports:
+   - "3306:3306"
+  environment:
+     - MYSQL_ROOT_PASSWORD=abcdef
+     - MYSQL_DATABASE=mysite

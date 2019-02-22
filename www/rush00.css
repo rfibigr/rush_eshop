@@ -1,0 +1,419 @@
+
+/*------ GLOBAL ------*/
+a:link {
+text-decoration:none;
+}
+
+a {
+color: black
+}
+/*------ HEADER ------*/
+
+header{
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+
+.logo {
+margin: 0 auto;
+margin-top: 40px;
+margin-bottom: 5px;
+display: inline-block;
+text-align: center;
+width: 200px;
+}
+
+.shopping_bag{
+font-weight: bold;
+position: absolute;
+right: 0;
+margin-right: 25px;
+margin-left: 10px;
+display: inline-block;
+}
+
+.sign{
+position: absolute;
+right: 165px;
+margin-left: 10px;
+display: inline-block;
+}
+#category ul {
+text-align: center;
+padding: 0;
+list-style-type: none;
+}
+
+#category li {
+display: inline-block;
+width: 200px;
+margin: auto;
+padding: 0;
+font-size: 18px;
+text-transform: uppercase;
+text-decoration: none;
+padding:0;
+}
+
+
+/* FOOTER  */
+footer {
+clear: both;
+}
+
+
+
+/* ------CATEGORY----- */
+
+
+.image_index{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.image_frontpage{
+	max-width: 800px;
+	width: 65%;
+	margin-bottom: 60px;
+}
+
+.text_frontpage {
+	font-size: 50px;
+	color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+}
+
+
+/* ------CATEGORY----- */
+
+
+.content_item {
+	max-width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+}
+
+
+.item{
+	display: inline-block;
+	margin-left: 10px;
+	height: 500px;
+	width: 30%;
+	margin-bottom: 50px;
+}
+
+.item_picture {
+height:90%;
+width:100%;
+object-fit: contain;
+background-color: black;
+
+}
+
+
+.item_name {
+font-weight: bold;
+
+}
+
+.item_price {
+
+}
+
+
+/* ------ARTICLE----- */
+
+
+.content_article {
+	max-width: 1300px;
+	margin-left: 100px;
+	margin-right: 100px;
+	height: auto;
+	margin-bottom: 40px;
+}
+
+.picture {
+left: 0;
+display: inline-block;
+width: 60%;
+}
+
+.article_right {
+display: inline-block;
+margin-top: 50px;
+width: 29%;
+text-align: center;
+float: right;
+font-weight: bold;
+font-size: 30px;
+
+}
+
+.article_name {
+margin-top: 50px;
+text-align: center;
+font-weight: bold;
+font-size: 30px;
+
+}
+
+.article_price {
+margin-top: 10px;
+text-align: center;
+font-size: 22px;
+
+}
+
+.article_form {
+margin-top: 20px;
+text-align: center;
+font-size: 15px;
+
+}
+
+input[type=number]{
+    width: 30px;
+}
+
+/* ------ACCOUNT----- */
+
+#account{
+	margin:auto;
+}
+
+/* ------SHOPPING BAG----- */
+.bag{
+max-width: 1300px;
+min-width: 600px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 100px;
+padding-right: 100px;
+margin-bottom: 40px;
+height: 1500px;
+}
+
+.bag_left{
+display: inline-block;
+float:left;
+width: 70%;
+}
+
+.bag_right{
+display: inline-block;
+margin-right: auto;
+margin-left: auto;
+height:300px;
+margin-top: 50px;
+width: 25%;
+text-align: center;
+float: right;
+font-weight: bold;
+font-size: 30px;
+border: 1px solid grey;
+}
+
+.bag_left table {
+	width: 100%;
+	height: 175px;
+	table-layout: fixed;
+}
+
+.bag_left tr{
+padding: 0;
+margin: 0;
+
+}
+
+.bag_left th{
+border: 1px solid grey;
+height: 175px;
+
+}
+
+.bag_item{
+width: 50%;
+background-color: grey;
+}
+
+.bag_picture{
+max-height: 100%;
+max-width:100%
+}
+.bag_price{
+margin-top: 15px;
+margin-bottom: 15px;
+margin-left: 40px;
+}
+
+.bag_price_total{
+margin-top: 50px;
+text-align: right;
+}
+.div_bag_picture{
+float: left;
+width:240px;
+height:175px;
+background-color: black;
+}
+
+.bag_name{
+margin-left: 40px;
+
+}
+
+.bag_quantity{
+}
+
+.form_remove{
+text-align: right;
+}
+
+/* ------RECAP-------- */
+
+.recap{
+max-width: 1300px;
+min-width: 600px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 100px;
+padding-right: 100px;
+margin-bottom: 40px;
+text-align: center;
+}
+
+
+.recap table {
+	width: 100%;
+	height: 175px;
+	table-layout: fixed;
+}
+
+.recap tr{
+padding: 0;
+margin: 0;
+
+}
+
+.recap th{
+border: 1px solid grey;
+height: 175px;
+}
+
+.recap_price{
+text-decoration: underline;
+font-size: 30px;
+
+}
+/* ------SIGN IN-------- */
+
+.sign_in{
+text-align: center;
+max-width: 1300px;
+min-width: 600px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 100px;
+padding-right: 100px;
+margin-bottom: 40px;
+}
+
+/* ------ADMIN-------- */
+
+.db_table {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	border-collapse: collapse;
+	color: white;
+}
+
+.db_table tr {
+	border: 1px solid black;
+	background-color: #0d0658;
+}
+
+.db_table tr:nth-child(odd) {
+	background-color: #0c096f;
+}
+
+.db_table td {
+	padding: 10px;
+}
+
+.db_table th {
+	padding: 10px;
+}
+
+/* ------ACCOUNT-------- */
+
+.account_user{
+max-width: 1300px;
+min-width: 600px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 100px;
+padding-right: 100px;
+margin-bottom: 40px;
+text-align: center;
+}
+
+.block_account{
+width: 100%;
+text-align: center;
+
+}
+
+.information_user{
+display: inline-block;
+width: 33%;
+border: 1px solid black;
+background-color: lightgrey;
+margin-bottom: 50px;
+}
+
+
+.information{
+text-align: center;
+}
+
+section{
+text-align: center;
+
+}
+
+.modify_account_user{
+display: inline-block;
+width: 33%;
+border: 1px solid black;
+background-color: lightgrey;
+margin-bottom: 50px;
+
+
+
+}
+.modify_password_user{
+display: inline-block;
+width: 33%;
+border: 1px solid black;
+background-color: lightgrey;
+margin-bottom: 50px;
+
+
+}
+.delete_account_user{
+display: inline-block;
+width: 33%;
+border: 1px solid black;
+background-color: lightgrey;
+margin-bottom: 50px;
+
+
+}
